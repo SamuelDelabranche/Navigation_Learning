@@ -15,7 +15,7 @@ namespace Navigation.MVVM.ViewModels
 
         public SecondViewModel(NavigationStore navigationStore)
         {
-            NavigateHomePageCommand = new NavigateHomePageCommand(navigationStore);
+            NavigateHomePageCommand = new NavigateCommand<HomeViewModel>(navigationStore, () => new HomeViewModel(navigationStore));
         }
     }
 }

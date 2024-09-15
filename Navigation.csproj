@@ -55,8 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Commands\NavigateHomePageCommand.cs" />
-    <Compile Include="Commands\NavigateSecondPageCommand.cs" />
+    <Compile Include="Commands\NavigateCommand.cs" />
     <Compile Include="Core\Observable.cs" />
     <Compile Include="Stores\NavigationStore.cs" />
     <Page Include="MainWindow.xaml">
